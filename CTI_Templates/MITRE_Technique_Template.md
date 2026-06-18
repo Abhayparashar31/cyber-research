@@ -30,12 +30,6 @@ tags:
   - mitre
   - ttp
 profile_status: draft | reviewed | published
-<<<<<<< HEAD
-=======
-banner: 99_Attachments/CIPHER Obsidian Banner.png
-banner-height: 300
-content-start: 301
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 ---
 
 # <technique_id> — <technique_name>
@@ -56,10 +50,6 @@ Write 3–5 sentences covering:
 
 ## Tactic Phases
 
-<<<<<<< HEAD
-=======
-- `[[07_TTP_Library/TAXXXX|Tactic Name]]`
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ---
 
@@ -81,7 +71,6 @@ Provide a thorough technical explanation:
 Real-world observed use. Structure: Actor → Malware → Campaign.
 
 ### Threat Actors
-<<<<<<< HEAD
 - specific observed implementation
 
 ### Malware & Tools
@@ -89,15 +78,6 @@ Real-world observed use. Structure: Actor → Malware → Campaign.
 
 ### Campaigns
 -  how this technique featured in the operation
-=======
-- `[[03_Threat_Actors/ActorName]]` — specific observed implementation
-
-### Malware & Tools
-- `[[05_Malware_and_Tools/MalwareName]]` — how this technique is implemented in the tool
-
-### Campaigns
-- `[[04_Campaigns/CampaignName]]` — how this technique featured in the operation
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ---
 
@@ -105,11 +85,7 @@ Real-world observed use. Structure: Actor → Malware → Campaign.
 
 | Actor | Frequency | Notes |
 |-------|-----------|-------|
-<<<<<<< HEAD
 | Actor Name | Frequently / Occasionally / Rarely | |
-=======
-| `[[03_Threat_Actors/ActorName]]` | Frequently / Occasionally / Rarely | |
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ---
 
@@ -117,11 +93,7 @@ Real-world observed use. Structure: Actor → Malware → Campaign.
 
 | Tool | Role | Notes |
 |------|------|-------|
-<<<<<<< HEAD
 | | | |
-=======
-| `[[05_Malware_and_Tools/MalwareName]]` | | |
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ---
 
@@ -129,11 +101,7 @@ Real-world observed use. Structure: Actor → Malware → Campaign.
 
 | Campaign | Context |
 |----------|---------|
-<<<<<<< HEAD
 | | |
-=======
-| `[[04_Campaigns/CampaignName]]` | |
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ---
 
@@ -293,21 +261,7 @@ Which account types or roles are most exposed:
 
 | Technique | Relationship |
 |-----------|-------------|
-<<<<<<< HEAD
 | Technique Name | Precedes / Follows / Enables / Variant of |
-=======
-| `[[07_TTP_Library/TXXXX\|Technique Name]]` | Precedes / Follows / Enables / Variant of |
-
----
-
-## Atomic Tests & Validation
-
-Reference Atomic Red Team tests or custom validation playbooks:
-
-| Test Name | Source | Expected Behavior | Detection Validation |
-|-----------|--------|-------------------|----------------------|
-| Atomic Red Team T#### | https://github.com/redcanaryco/atomic-red-team | | Alert / Log event that should fire |
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ---
 

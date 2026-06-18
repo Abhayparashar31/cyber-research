@@ -2,13 +2,7 @@
 entity_type: cti_briefing
 profile_version: "1.0"
 briefing_title: ""
-<<<<<<< HEAD
 tlp_classification: TLP: (AMBER | GREEN | WHITE | RED) 
-=======
-briefing_id: "BR-<YYYY>-<###>"
-briefing_type: weekly | incident_driven | executive | ad_hoc | threat_landscape
-tlp_classification: TLP:AMBER
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 audience:
   - executives
   - security_leadership
@@ -16,11 +10,6 @@ audience:
   - ir_team
   - fraud_team
 pir_references: []
-<<<<<<< HEAD
-=======
-reporting_period_start: "YYYY-MM-DD"
-reporting_period_end: "YYYY-MM-DD"
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 key_threat_actors: []
 key_campaigns: []
 key_vulnerabilities: []
@@ -33,22 +22,12 @@ profile_status: draft | reviewed | published
 tags:
   - cti
   - briefing
-<<<<<<< HEAD
-=======
-banner: 99_Attachments/CIPHER Obsidian Banner.png
-banner-height: 300
-content-start: 301
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 ---
 
 # <briefing_title>
 
-<<<<<<< HEAD
 Date: <data_created> | **Threat Level:** <overall_threat_level> | **TLP:** TLP:AMBER
 Updated: <date_updated>
-=======
-**Period:** <reporting_period_start> → <reporting_period_end> | **Threat Level:** <overall_threat_level> | **TLP:** TLP:AMBER
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ---
 
@@ -127,11 +106,7 @@ Document campaigns that are ongoing, newly identified, or concluded with notable
 
 | Campaign | Status | Attribution | Sectors Targeted | Notes |
 |----------|--------|-------------|-----------------|-------|
-<<<<<<< HEAD
 |  | | | | |
-=======
-| `[[04_Campaigns/CampaignName]]` | | | | |
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 For each campaign, briefly describe:
 - What makes it notable this period
@@ -144,11 +119,7 @@ For each campaign, briefly describe:
 
 List high-fidelity, actionable indicators identified or surfaced during this reporting period.
 
-<<<<<<< HEAD
 > **Note:** Only include indicators with operational value — avoid IOC dumps.
-=======
-> **Note:** Only include indicators with operational value — avoid IOC dumps. Link to full IOC sets in `[[09_IOCs/]]`.
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 | Type | Indicator | Confidence | Associated Actor / Campaign |
 |------|-----------|------------|----------------------------|
@@ -165,11 +136,7 @@ Highlight vulnerabilities that require prioritized attention this period.
 
 | CVE | Product | CVSS | EPSS | Exploit Status | Patch Available | Action Required |
 |-----|---------|------|------|---------------|----------------|-----------------|
-<<<<<<< HEAD
 |  | | | | | | |
-=======
-| `[[06_Vulnerabilities/CVE-XXXX-XXXXX]]` | | | | | | |
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 Notes on exploitation trends:
 - Which CVEs are being mass-exploited vs. targeted?
@@ -191,11 +158,7 @@ Priority hunt ideas based on intelligence from this period:
 1. **Hunt:** [Name]
    - **Hypothesis:** What are you looking for and why?
    - **Data Sources:** EDR / SIEM / DNS / Identity
-<<<<<<< HEAD
    - **Query Reference:** inline KQL/Sigma
-=======
-   - **Query Reference:** [[09_IOCs/]] or inline KQL/Sigma
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 2. **Hunt:** [Name]
    - **Hypothesis:**

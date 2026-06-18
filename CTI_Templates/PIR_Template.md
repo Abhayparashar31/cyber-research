@@ -39,12 +39,6 @@ date_created: "YYYY-MM-DD"
 date_updated: "YYYY-MM-DD"
 author: ""
 profile_status: draft | reviewed | active | retired
-<<<<<<< HEAD
-=======
-banner: 99_Attachments/CIPHER Obsidian Banner.png
-banner-height: 300
-content-start: 301
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 ---
 
 # <pir_title>
@@ -132,13 +126,8 @@ What products or deliverables will this PIR generate?
 
 | Output Type | Frequency | Audience | Format |
 |-------------|-----------|----------|--------|
-<<<<<<< HEAD
 | Weekly briefing inclusion | Weekly | Security leadership | Briefings |
 | Threat actor profile update | As needed | SOC / IR | Threat Actors |
-=======
-| Weekly briefing inclusion | Weekly | Security leadership | `[[Briefings/]]` |
-| Threat actor profile update | As needed | SOC / IR | `[[03_Threat_Actors/]]` |
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 | Hunt package | Quarterly | Threat hunting team | KQL / Sigma |
 | Incident enrichment | Per incident | IR team | Case notes |
 
@@ -218,17 +207,10 @@ Use Obsidian wikilinks to tie this PIR into the broader CTI knowledge graph.
 
 | Category | Links |
 |----------|-------|
-<<<<<<< HEAD
 | Threat Actors |  |
 | Campaigns |  |
 | Malware |  |
 | Vulnerabilities | |
-=======
-| Threat Actors | `[[03_Threat_Actors/ActorName]]` |
-| Campaigns | `[[04_Campaigns/CampaignName]]` |
-| Malware | `[[05_Malware_and_Tools/MalwareName]]` |
-| Vulnerabilities | `[[06_Vulnerabilities/CVE-XXXX-XXXXX]]` |
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 | Technologies | |
 | Business Units | |
 

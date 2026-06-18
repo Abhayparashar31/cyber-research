@@ -41,12 +41,6 @@ date_created: "YYYY-MM-DD"
 date_updated: "YYYY-MM-DD"
 author: ""
 profile_status: draft | reviewed | published
-<<<<<<< HEAD
-=======
-banner: 99_Attachments/CIPHER Obsidian Banner.png
-banner-height: 300
-content-start: 301
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 ---
 
 # <actor_name>
@@ -131,11 +125,7 @@ Narrative covering suspected origins, geopolitical context, known affiliations, 
 Organized by ATT&CK tactic phase. Use wikilinks for all techniques.
 
 ### Initial Access
-<<<<<<< HEAD
 - Technique Name — observed implementation
-=======
-- `[[07_TTP_Library/TXXXX|Technique Name]]` — observed implementation
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ### Execution
 -
@@ -178,11 +168,7 @@ Organized by ATT&CK tactic phase. Use wikilinks for all techniques.
 
 | Tool / Malware | Type | Role | Exclusivity |
 |---------------|------|------|-------------|
-<<<<<<< HEAD
 | Tool/ Malware Name | RAT / Loader / Wiper / etc. | | Exclusive / Shared / Commodity |
-=======
-| `[[05_Malware_and_Tools/MalwareName]]` | RAT / Loader / Wiper / etc. | | Exclusive / Shared / Commodity |
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ---
 
@@ -202,11 +188,7 @@ Describe observed infrastructure tradecraft:
 
 | Campaign | Period | Role | Status |
 |----------|--------|------|--------|
-<<<<<<< HEAD
 | Campaign Name | | Primary / Supporting | Ongoing / Concluded |
-=======
-| `[[04_Campaigns/CampaignName]]` | | Primary / Supporting | Ongoing / Concluded |
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ---
 
@@ -214,11 +196,7 @@ Describe observed infrastructure tradecraft:
 
 | Actor | Relationship | Confidence |
 |-------|-------------|------------|
-<<<<<<< HEAD
 | Threat Actor Name | Shared infrastructure / Shared tooling / Same group / Allied | |
-=======
-| `[[03_Threat_Actors/ActorName]]` | Shared infrastructure / Shared tooling / Same group / Allied | |
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ---
 
@@ -246,11 +224,7 @@ Describe observed infrastructure tradecraft:
 
 ## Indicators of Compromise
 
-<<<<<<< HEAD
 - IOCs
-=======
-- `[[09_IOCs/IOC_Set_Name]]`
->>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
 
 ---
 
