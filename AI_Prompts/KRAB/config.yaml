@@ -1,0 +1,525 @@
+<<<<<<< HEAD
+REPORT_CONFIGURATION:
+
+  # ==========================================================
+  # ORGANIZATION PROFILE
+  # ==========================================================
+  ORGANIZATION_PROFILE:
+    company_name: "XYZ"
+    company_mode: "specific"              # specific | generic
+    sector: "Financial Services"          # Financial Services | Healthcare | Manufacturing | Energy | Retail | Technology | Generic
+    geography: "Global"
+    employee_size: "10000+"
+
+    technology_stack:
+      - Microsoft 365
+      - Azure
+      - Okta
+      - CrowdStrike
+
+  # ==========================================================
+  # REPORT SETTINGS
+  # ==========================================================
+  REPORT_SETTINGS:
+    report_type: "CTI Bulletin"           # CTI Bulletin | Flash Report | Executive Brief | Weekly Intelligence Report | Vulnerability Advisory | Threat Actor Profile
+    classification: "Internal"            # Public | Internal | Confidential
+    audience:
+      - Executive
+      - Security Leadership
+      - SOC
+      - CTI
+
+  # ==========================================================
+  # WRITING STYLE
+  # ==========================================================
+  TONE:
+    style: "Executive"                    # Executive | Professional | Technical
+    verbosity: "Medium"                   # Short | Medium | Detailed
+    writing_mode:
+      - Strategic
+      - Analytical
+      - Actionable
+
+    estimative_language: true
+
+  # ==========================================================
+  # REPORT MATURITY
+  # ==========================================================
+  REPORT_MATURITY:
+    level: "Operational"                  # Strategic | Operational | Tactical
+
+  # ==========================================================
+  # TIMELINE
+  # ==========================================================
+  TIMELINE:
+    include_timeline: true
+    timeline_format: "table"              # table | bullets
+
+  # ==========================================================
+  # RISK ASSESSMENT
+  # ==========================================================
+  RISK_SCORING:
+    methodology: "Likelihood x Impact"    # Likelihood x Impact | Qualitative | CVSS
+    include_confidence_rating: true
+    confidence_levels:
+      - High
+      - Moderate
+      - Low
+
+  # ==========================================================
+  # INTELLIGENCE DEPTH
+  # ==========================================================
+  INTELLIGENCE_DEPTH:
+    executive_summary: true
+    threat_landscape_context: true
+    actor_profiling: true
+    infrastructure_analysis: true
+    victimology_analysis: true
+    malware_analysis: true
+    campaign_analysis: true
+
+  # ==========================================================
+  # THREAT ACTOR SECTION
+  # ==========================================================
+  THREAT_ACTOR:
+    enabled: true
+    include_aliases: true
+    include_motivation: true
+    include_historical_activity: false
+
+  # ==========================================================
+  # THREAT FOCUS
+  # ==========================================================
+  THREAT_FOCUS:
+    categories:
+      - Ransomware
+      - Phishing
+      - Vulnerability
+      - APT
+      - Supply Chain
+
+  # ==========================================================
+  # MITRE ATT&CK
+  # ==========================================================
+  MITRE:
+    include_mapping: true
+    include_attack_chain: true
+    include_sub_techniques: true
+    include_detection_opportunities: true
+
+  # ==========================================================
+  # ADDITIONAL THREAT MODELS
+  # ==========================================================
+  THREAT_MODEL:
+    frameworks:
+      - MITRE ATT&CK
+      - Cyber Kill Chain
+      - Diamond Model
+
+  # ==========================================================
+  # IOCS
+  # ==========================================================
+  IOCS:
+    include_iocs: true
+
+    include_domains: true
+    include_ips: true
+    include_urls: true
+    include_hashes: true
+    include_email_addresses: true
+    include_mutexes: false
+    include_registry_keys: false
+
+  # ==========================================================
+  # ACTIONABILITY
+  # ==========================================================
+  ACTIONABILITY:
+
+    include_executive_recommendations: true
+    include_cti_actions: true
+    include_soc_actions: true
+    include_ir_actions: true
+
+    include_detection_opportunities: true
+    include_hunting_guidance: true
+
+    include_sigma_rules: false
+    include_yara_rules: false
+
+    include_kql_queries: false
+    include_splunk_queries: false
+
+  # ==========================================================
+  # EXPOSURE ASSESSMENT
+  # ==========================================================
+  EXPOSURE_ASSESSMENT:
+
+    include_relevance_to_company: true
+    consider_sector_risk: true
+    consider_geography: true
+    consider_technology_stack: true
+    consider_third_party_exposure: true
+
+  # ==========================================================
+  # ATTACK LIFECYCLE
+  # ==========================================================
+  ATTACK_CHAIN:
+    include_attack_lifecycle: true
+    include_kill_chain: false
+
+  # ==========================================================
+  # VISUALS
+  # ==========================================================
+  VISUALS:
+
+    include_visual_placeholders: true
+
+    include_campaign_flow_diagram: true
+    include_attack_chain_diagram: true
+    include_infrastructure_diagram: false
+    include_geographic_map: false
+
+  # ==========================================================
+  # APPENDIX
+  # ==========================================================
+  APPENDIX:
+
+    include_ioc_appendix: true
+    include_visual_appendix: true
+    include_source_appendix: true
+
+  # ==========================================================
+  # SOURCE HANDLING
+  # ==========================================================
+  SOURCE_HANDLING:
+
+    citations: true
+    inline_citations: true
+
+    include_source_links: true
+    hyperlink_titles: true
+
+  # ==========================================================
+  # OUTPUT FORMAT
+  # ==========================================================
+  OUTPUT_FORMAT:
+
+    markdown: true
+    tables: true
+
+    toc: true
+    pdf_ready: true
+
+  # ==========================================================
+  # LANGUAGE
+  # ==========================================================
+  LANGUAGE:
+
+    language: "English"
+    reading_level: "Business"
+
+  # ==========================================================
+  # TEMPORAL CONTEXT
+  # ==========================================================
+  TEMPORAL_CONTEXT:
+
+    report_date: "Current Date"
+    focus_period: "Last 30 Days"
+
+  # ==========================================================
+  # CONFIDENCE MODEL
+  # ==========================================================
+  CONFIDENCE_MODEL:
+
+    use_estimative_language: true
+
+    expressions:
+      high_confidence:
+        - "We assess with high confidence"
+        - "Evidence strongly suggests"
+
+      moderate_confidence:
+        - "We assess with moderate confidence"
+        - "Available reporting indicates"
+
+      low_confidence:
+        - "We assess with low confidence"
+        - "Limited reporting suggests"
+
+  # ==========================================================
+  # CUSTOM SECTIONS
+  # ==========================================================
+  CUSTOM_SECTIONS:
+
+    include_key_intelligence_gaps: true
+    include_lessons_learned: false
+    include_watchlist: false
+    include_related_campaigns: false
+
+  # ==========================================================
+  # RESERVED FOR FUTURE USE
+  # ==========================================================
+  EXTENSIONS: {}
+=======
+REPORT_CONFIGURATION:
+
+  # ==========================================================
+  # ORGANIZATION PROFILE
+  # ==========================================================
+  ORGANIZATION_PROFILE:
+    company_name: "XYZ"
+    company_mode: "specific"              # specific | generic
+    sector: "Financial Services"          # Financial Services | Healthcare | Manufacturing | Energy | Retail | Technology | Generic
+    geography: "Global"
+    employee_size: "10000+"
+
+    technology_stack:
+      - Microsoft 365
+      - Azure
+      - Okta
+      - CrowdStrike
+
+  # ==========================================================
+  # REPORT SETTINGS
+  # ==========================================================
+  REPORT_SETTINGS:
+    report_type: "CTI Bulletin"           # CTI Bulletin | Flash Report | Executive Brief | Weekly Intelligence Report | Vulnerability Advisory | Threat Actor Profile
+    classification: "Internal"            # Public | Internal | Confidential
+    audience:
+      - Executive
+      - Security Leadership
+      - SOC
+      - CTI
+
+  # ==========================================================
+  # WRITING STYLE
+  # ==========================================================
+  TONE:
+    style: "Executive"                    # Executive | Professional | Technical
+    verbosity: "Medium"                   # Short | Medium | Detailed
+    writing_mode:
+      - Strategic
+      - Analytical
+      - Actionable
+
+    estimative_language: true
+
+  # ==========================================================
+  # REPORT MATURITY
+  # ==========================================================
+  REPORT_MATURITY:
+    level: "Operational"                  # Strategic | Operational | Tactical
+
+  # ==========================================================
+  # TIMELINE
+  # ==========================================================
+  TIMELINE:
+    include_timeline: true
+    timeline_format: "table"              # table | bullets
+
+  # ==========================================================
+  # RISK ASSESSMENT
+  # ==========================================================
+  RISK_SCORING:
+    methodology: "Likelihood x Impact"    # Likelihood x Impact | Qualitative | CVSS
+    include_confidence_rating: true
+    confidence_levels:
+      - High
+      - Moderate
+      - Low
+
+  # ==========================================================
+  # INTELLIGENCE DEPTH
+  # ==========================================================
+  INTELLIGENCE_DEPTH:
+    executive_summary: true
+    threat_landscape_context: true
+    actor_profiling: true
+    infrastructure_analysis: true
+    victimology_analysis: true
+    malware_analysis: true
+    campaign_analysis: true
+
+  # ==========================================================
+  # THREAT ACTOR SECTION
+  # ==========================================================
+  THREAT_ACTOR:
+    enabled: true
+    include_aliases: true
+    include_motivation: true
+    include_historical_activity: false
+
+  # ==========================================================
+  # THREAT FOCUS
+  # ==========================================================
+  THREAT_FOCUS:
+    categories:
+      - Ransomware
+      - Phishing
+      - Vulnerability
+      - APT
+      - Supply Chain
+
+  # ==========================================================
+  # MITRE ATT&CK
+  # ==========================================================
+  MITRE:
+    include_mapping: true
+    include_attack_chain: true
+    include_sub_techniques: true
+    include_detection_opportunities: true
+
+  # ==========================================================
+  # ADDITIONAL THREAT MODELS
+  # ==========================================================
+  THREAT_MODEL:
+    frameworks:
+      - MITRE ATT&CK
+      - Cyber Kill Chain
+      - Diamond Model
+
+  # ==========================================================
+  # IOCS
+  # ==========================================================
+  IOCS:
+    include_iocs: true
+
+    include_domains: true
+    include_ips: true
+    include_urls: true
+    include_hashes: true
+    include_email_addresses: true
+    include_mutexes: false
+    include_registry_keys: false
+
+  # ==========================================================
+  # ACTIONABILITY
+  # ==========================================================
+  ACTIONABILITY:
+
+    include_executive_recommendations: true
+    include_cti_actions: true
+    include_soc_actions: true
+    include_ir_actions: true
+
+    include_detection_opportunities: true
+    include_hunting_guidance: true
+
+    include_sigma_rules: false
+    include_yara_rules: false
+
+    include_kql_queries: false
+    include_splunk_queries: false
+
+  # ==========================================================
+  # EXPOSURE ASSESSMENT
+  # ==========================================================
+  EXPOSURE_ASSESSMENT:
+
+    include_relevance_to_company: true
+    consider_sector_risk: true
+    consider_geography: true
+    consider_technology_stack: true
+    consider_third_party_exposure: true
+
+  # ==========================================================
+  # ATTACK LIFECYCLE
+  # ==========================================================
+  ATTACK_CHAIN:
+    include_attack_lifecycle: true
+    include_kill_chain: false
+
+  # ==========================================================
+  # VISUALS
+  # ==========================================================
+  VISUALS:
+
+    include_visual_placeholders: true
+
+    include_campaign_flow_diagram: true
+    include_attack_chain_diagram: true
+    include_infrastructure_diagram: false
+    include_geographic_map: false
+
+  # ==========================================================
+  # APPENDIX
+  # ==========================================================
+  APPENDIX:
+
+    include_ioc_appendix: true
+    include_visual_appendix: true
+    include_source_appendix: true
+
+  # ==========================================================
+  # SOURCE HANDLING
+  # ==========================================================
+  SOURCE_HANDLING:
+
+    citations: true
+    inline_citations: true
+
+    include_source_links: true
+    hyperlink_titles: true
+
+  # ==========================================================
+  # OUTPUT FORMAT
+  # ==========================================================
+  OUTPUT_FORMAT:
+
+    markdown: true
+    tables: true
+
+    toc: true
+    pdf_ready: true
+
+  # ==========================================================
+  # LANGUAGE
+  # ==========================================================
+  LANGUAGE:
+
+    language: "English"
+    reading_level: "Business"
+
+  # ==========================================================
+  # TEMPORAL CONTEXT
+  # ==========================================================
+  TEMPORAL_CONTEXT:
+
+    report_date: "Current Date"
+    focus_period: "Last 30 Days"
+
+  # ==========================================================
+  # CONFIDENCE MODEL
+  # ==========================================================
+  CONFIDENCE_MODEL:
+
+    use_estimative_language: true
+
+    expressions:
+      high_confidence:
+        - "We assess with high confidence"
+        - "Evidence strongly suggests"
+
+      moderate_confidence:
+        - "We assess with moderate confidence"
+        - "Available reporting indicates"
+
+      low_confidence:
+        - "We assess with low confidence"
+        - "Limited reporting suggests"
+
+  # ==========================================================
+  # CUSTOM SECTIONS
+  # ==========================================================
+  CUSTOM_SECTIONS:
+
+    include_key_intelligence_gaps: true
+    include_lessons_learned: false
+    include_watchlist: false
+    include_related_campaigns: false
+
+  # ==========================================================
+  # RESERVED FOR FUTURE USE
+  # ==========================================================
+  EXTENSIONS: {}
+>>>>>>> 969d4c9e3e080b2bb6eb8aee7efbd103063a5e8c
