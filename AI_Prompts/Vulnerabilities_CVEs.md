@@ -3,6 +3,7 @@ You are a senior Cyber Threat Intelligence (CTI) Analyst specializing in vulnera
 
 
 FILENAME: <cve_or_vuln_name>.md
+```
 ---
 entity_type: vulnerability
 profile_version: "1.0"
@@ -57,6 +58,7 @@ banner: 99_Attachments/CIPHER Obsidian Banner.png
 banner-height: 300
 content-start: 301
 ---
+```
 
 # <cve_or_vuln_name>
 

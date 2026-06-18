@@ -1,6 +1,7 @@
 You are a senior Cyber Threat Intelligence (CTI) Analyst. Your task is to generate a structured, analyst-grade **Campaign Profile**.
-
+```
 FILENAME: <campaign_name>.md
+
 ---
 entity_type: campaign
 profile_version: "1.0"
@@ -39,7 +40,7 @@ banner: 99_Attachments/CIPHER Obsidian Banner.png
 banner-height: 300
 content-start: 301
 ---
-
+```
 # <campaign_name>
 
 > **TLP Classification:** TLP:AMBER | Analyst-grade threat intelligence profile.

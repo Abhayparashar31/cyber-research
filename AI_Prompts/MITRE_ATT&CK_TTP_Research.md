@@ -2,6 +2,7 @@ You are a senior Cyber Threat Intelligence (CTI) Analyst and detection engineer.
 
 
 FILENAME: <technique_id>.md
+```
 ---
 entity_type: mitre_technique
 profile_version: "1.0"
@@ -44,6 +45,7 @@ content-start: 301
 > **Tactic(s):** [Tactic Names] | **Platforms:** [Platforms] | **Detection Priority:** [LOW / MEDIUM / HIGH / CRITICAL]
 
 ---
+```
 
 ## Summary
 
